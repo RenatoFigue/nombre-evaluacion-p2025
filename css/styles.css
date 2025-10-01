@@ -1,0 +1,76 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+#line_menu{
+  position:fixed;
+  align-items: center;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+img {
+  height: 30rem;
+  object-fit: cover;
+}
+
+#backgroundimg{
+  position:fixed;
+  align-items: center;
+}
+
+a{
+  color: #FFF;
+  font-size: 4.5rem;
+  font-weight: bold;
+  background-color: black;
+}
+
+nav ul{ 
+  color:#FFF;
+  font-size:2rem;
+  position: relative;
+  right: 20px;
+
+}
+
+#menu_navegacion{
+  position: relative;
+  left: 200px;
+  margin-top: auto;
+  background-color: black;
+}
+
+h2{
+  background:#FFF;
+  align-content: center;
+  position: relative;
+}
+
+#nuestros_producto{
+ columns: 4px;;
+ margin: 0.5rem;
+ position: relative;
+ color: red;
+}
+
+span{
+  padding: 10px;
+  position: relative;
+}
+
+#texto1{
+  columns: 4;
+  width: 900px;
+  position: relative;
+}
