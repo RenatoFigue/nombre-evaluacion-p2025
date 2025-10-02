@@ -4,11 +4,26 @@ html {
   font-size: 62.5%;
 }
 
+header { background: #000; }
+
+section.productos { background: #fff; }
+
+footer { background: #000; }
+
+body {
+  font-family: 'Coming Soon', cursive;
+  background: url('../img/background.jpg') center fixed;
+  background-size: cover;
+  color: #333;
+  line-height: 1.6;
+
+}
 *,
 *:before,
 *:after {
   box-sizing: inherit;
 }
+
 
 #line_menu{
   position:fixed;
@@ -24,31 +39,14 @@ img {
   object-fit: cover;
 }
 
-#backgroundimg{
-  position:fixed;
-  align-items: center;
-}
 
-a{
-  color: #FFF;
-  font-size: 4.5rem;
-  font-weight: bold;
-  background-color: black;
-}
-
-nav ul{ 
-  color:#FFF;
-  font-size:2rem;
-  position: relative;
-  right: 20px;
-
-}
 
 #menu_navegacion{
   position: relative;
   left: 200px;
   margin-top: auto;
   background-color: black;
+
 }
 
 h2{
@@ -58,10 +56,11 @@ h2{
 }
 
 #nuestros_producto{
- columns: 4px;;
  margin: 0.5rem;
- position: relative;
- color: red;
+ position:relative;
+ background-color: #FFF;
+ top:30px;
+ padding:0px 30px 0px 20px;
 }
 
 span{
@@ -73,4 +72,151 @@ span{
   columns: 4;
   width: 900px;
   position: relative;
+  top: 40px;
+  padding:0px 30px 0px 20px;
+}
+#color{
+
+  background-color: #FFF;
+  width: 1500px;             
+  margin: 0 auto;          
+  display: flex;
+  flex-direction: column;  
+  align-items: center;     
+      
+}
+
+#contacts{
+  background-color:black;
+
+}
+
+.blogs{
+  position: relative;
+  background:lightcyan;
+  padding: 12px;
+  border: 15px solid #fff;
+  border-radius: 2.9rem;
+  width: 1346px;
+  margin-left: 0;
+  margin-right: auto; 
+}
+
+.holad{
+position: absolute;
+top: 15px;
+left:290px;
+}
+
+
+.blogs img{
+  width:auto;
+  height: 300px ;
+
+}
+
+h2 {
+  text-align: center;
+  padding: 15px;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px 50px;
+}
+
+.logo {
+  font-size: 24px;
+  text-align: left;
+
+}
+
+.nav {
+
+  display: flex;
+  gap: 20px;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+
+}
+
+.nav a:hover {
+
+  text-decoration: underline;
+}
+
+h3{
+  margin-top:0px;
+}
+
+.contenedor-principal {
+  display: flex;
+}
+
+.mas-vendidos {
+  background-color: #fff;
+  flex-basis: 25%;
+  padding: 1rem;
+  box-sizing: border-box;
+  font-family: sans-serif;
+position: absolute;
+top: 250px;
+left:1500px;
+position: absolute;
+
+}
+
+.mas-vendidos h2 {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+
+  
+}
+
+.manga-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.manga-item img {
+  width: 5rem;
+  height: 7rem;
+  object-fit: cover;
+  border: 1px solid #ccc;
+}
+
+.manga-item p {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.contenido-principal {
+  flex: 1;
+  padding: 1rem;
+}
+
+#sobre{
+  text-align: center;
+  width:1400px;
+}
+
+#contact{
+  display:flex;
+  justify-content: center;
+
+
 }
